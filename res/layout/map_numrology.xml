@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/button"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/textViewHands2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="17dp"
+        android:layout_y="284dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewMakafHands2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="38dp"
+        android:layout_y="284dp"
+        android:text="/"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewHandsFinal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="51dp"
+        android:layout_y="284dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewMakafBagrot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="26dp"
+        android:layout_y="478dp"
+        android:text="/"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewBagrot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="478dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewBagrotFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="38dp"
+        android:layout_y="478dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/buttonBagrot"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:layout_x="3dp"
+        android:layout_y="455dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/buttonHands2"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:layout_x="-2dp"
+        android:layout_y="272dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/buttonHeart"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:layout_x="175dp"
+        android:layout_y="111dp"
+        android:background="@android:color/transparent" />
+
+    <TextView
+        android:id="@+id/textViewHeart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="193dp"
+        android:layout_y="147dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/buttonHead"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_x="139dp"
+        android:layout_y="3dp"
+        android:background="@android:color/transparent" />
+
+    <TextView
+        android:id="@+id/textViewHeadFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="194dp"
+        android:layout_y="11dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewMakafHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="180dp"
+        android:layout_y="11dp"
+        android:text="/"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="154dp"
+        android:layout_y="11dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/buttonHands"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:layout_x="282dp"
+        android:layout_y="264dp"
+        android:background="@android:color/transparent" />
+
+    <TextView
+        android:id="@+id/textViewHands"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="295dp"
+        android:layout_y="280dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewMakafHands"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="316dp"
+        android:layout_y="280dp"
+        android:text="/"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewHandsFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="332dp"
+        android:layout_y="280dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/buttonSpirala"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:layout_x="147dp"
+        android:layout_y="196dp"
+        android:background="@android:color/transparent" />
+
+    <TextView
+        android:id="@+id/textViewSpiralaFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="194dp"
+        android:layout_y="214dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textViewMakaf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="177dp"
+        android:layout_y="214dp"
+        android:text="/"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textViewSpirala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="153dp"
+        android:layout_y="214dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/buttonFeet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="151dp"
+        android:layout_y="468dp"
+        android:background="@android:color/transparent" />
+
+    <TextView
+        android:id="@+id/textViewFeet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="160dp"
+        android:layout_y="485dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewMakafFeet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="179dp"
+        android:layout_y="485dp"
+        android:text="/"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewFeetFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="191dp"
+        android:layout_y="485dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/buttonYaldot"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+        android:layout_x="302dp"
+        android:layout_y="455dp"
+        android:background="@android:color/transparent" />
+
+    <TextView
+        android:id="@+id/textViewYaldotFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="335dp"
+        android:layout_y="481dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewYaldot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="305dp"
+        android:layout_y="481dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewMakafYaldot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="323dp"
+        android:layout_y="481dp"
+        android:text="/"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</AbsoluteLayout>

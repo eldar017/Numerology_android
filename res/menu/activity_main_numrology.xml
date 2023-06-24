@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_user_Info"
+        android:title="@string/menu_user_Info"/>
+  	<item
+        android:id="@+id/menu_Current"
+        android:title="@string/menu_Current"/>
+    <item
+        android:id="@+id/menu_haed"
+        android:title="@string/menu_haed"/>
+    <item
+        android:id="@+id/menu_hart"
+        android:title="@string/menu_hart"/>
+    <item
+        android:id="@+id/menu_spirala"
+        android:title="@string/menu_spirala"/>
+    <item
+        android:id="@+id/menu_hands"
+        android:title="@string/menu_hands"/>
+    <item
+        android:id="@+id/menu_yaldot"
+        android:title="@string/menu_yaldot"/>
+    <item
+        android:id="@+id/menu_feet"
+        android:title="@string/menu_feet"/>
+    <item
+        android:id="@+id/menu_bagrot"
+        android:title="@string/menu_bagrot"/>
+</menu>

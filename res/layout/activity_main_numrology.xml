@@ -1,0 +1,285 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/starbackground"
+    tools:context=".Main_numrology" >
+
+    <TextView
+        android:id="@+id/textViewFinalFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="שם פרטי:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/editTextFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:nextFocusDown="@+id/editTextLastName"
+        android:layout_below="@+id/textViewFinalFirstName"
+        android:layout_marginLeft="183dp"
+        android:layout_toLeftOf="@+id/textViewFinalFirstName"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextFirstName"
+        android:layout_toLeftOf="@+id/textViewFinalFirstName"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textViewMakafFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewFirstName"
+        android:layout_alignBottom="@+id/textViewFirstName"
+        android:layout_alignLeft="@+id/textViewFinalFirstName"
+        android:layout_marginLeft="20dp"
+        android:text="/"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textViewFirstNameFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewMakafFirstName"
+        android:layout_alignBottom="@+id/textViewMakafFirstName"
+        android:layout_marginLeft="26dp"
+        android:layout_toRightOf="@+id/textViewMakafFirstName"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textViewFinalLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textViewFirstName"
+        android:layout_marginTop="31dp"
+        android:text="שם משפחה:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/editTextLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextFirstName"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textViewFinalLastName"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:nextFocusDown="@+id/editTextDay"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewMakafLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextLastName"
+        android:layout_toLeftOf="@+id/textViewFirstNameFinal"
+        android:text="/"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textViewLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewMakafLastName"
+        android:layout_alignBottom="@+id/textViewMakafLastName"
+        android:layout_alignLeft="@+id/textViewFirstName"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textViewLastNameFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewMakafLastName"
+        android:layout_alignBottom="@+id/textViewMakafLastName"
+        android:layout_alignLeft="@+id/textViewFirstNameFinal"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white" />
+
+
+    <Button
+        android:id="@+id/buttonCalcAndSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewFinalFirstName"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:text="חשב ושמור"
+        android:textColor="@android:color/white" />
+    
+     <Button
+        android:id="@+id/buttonCalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/buttonCalcAndSave"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:text="חשב"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/lblDateAndTime"
+        android:layout_width="fill_parent"
+        android:layout_height="47px"
+        android:layout_above="@+id/buttonCalcAndSave"
+        android:layout_alignParentLeft="true"
+        android:background="#ff000099"
+        android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblDateAndTime"
+        android:layout_marginRight="47dp"
+        android:text="עבור למפה" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lblDateAndTime"
+        android:layout_alignLeft="@+id/button1"
+        android:text="מחזורי חיים" />
+    
+    <Button
+        android:id="@+id/button_list_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_alignLeft="@+id/button1"
+        android:text="רשימת מפות" />
+    
+
+     <AbsoluteLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/EditTextMonth"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_x="202dp"
+        android:layout_y="230dp"
+        android:ems="10"
+        android:nextFocusDown="@+id/EditTextYear"
+        android:background="@android:color/white"
+        android:hint="חודש"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="276dp"
+        android:layout_y="230dp"
+         android:textColor="@android:color/white"
+        android:text="/" />
+
+    <EditText
+        android:id="@+id/editTextDay"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_x="100dp"
+        android:layout_y="230dp"
+        android:ems="10"
+        android:nextFocusDown="@+id/EditTextMonth"
+        android:background="@android:color/white"
+        android:hint="יום"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/EditTextYear"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_x="290dp"
+        android:layout_y="230dp"
+        android:ems="10"
+        android:background="@android:color/white"
+        android:hint="שנה"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="178dp"
+        android:layout_y="230dp"
+        android:text="/"
+        android:textColor="@android:color/white" />
+    
+    
+     <TextView
+        android:id="@+id/textViewBirthDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_x="220dp"
+        android:layout_y="265dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white" />
+     
+     
+       <TextView
+        android:id="@+id/textViewBirthDayFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_x="255dp"
+        android:layout_y="265dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white" />
+       
+        <TextView
+        android:id="@+id/textViewMakafBiryhDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:layout_x="240dp"
+        android:layout_y="265dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white" />
+
+        <TextView
+        android:id="@+id/textViewBirthDayLable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:layout_x="250dp"
+        android:layout_y="186dp"
+        android:text="תאריך לידה:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white" />
+
+</AbsoluteLayout>
+
+</RelativeLayout>
+
